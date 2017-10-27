@@ -36,12 +36,12 @@ Ex: Write SQL to find IPs that made more than 100 requests starting from 2017-01
 
 -------------------------------------------
 
-SELECT  d.ip
-FROM log_data d
-WHERE d.date 
-BETWEEN '2017-01-01 13:00:00' AND '2017-01-01 14:00:00'
-GROUP BY ip
-HAVING COUNT(ip) > 100;
+	SELECT  d.ip
+	FROM log_data d
+	WHERE d.date 
+	BETWEEN '2017-01-01 13:00:00' AND '2017-01-01 14:00:00'
+	GROUP BY ip
+	HAVING COUNT(ip) > 100;
 
 -----------------------------------------
 
@@ -50,8 +50,8 @@ HAVING COUNT(ip) > 100;
 
 -----------------------------------------
 
-SELECT d.request AS Requests
-FROM log_data d
-WHERE d.ip = '192.168.77.101';
+	SELECT d.request AS Requests
+	FROM log_data d
+	WHERE d.ip = '192.168.77.101';
 
 ----------------------------------------
