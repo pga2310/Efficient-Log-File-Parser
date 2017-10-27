@@ -1,6 +1,6 @@
 # Efficient-Log-File-Parser
  - A Java parser that parses web server access log file, loads the log to MySQL and checks if a given IP makes more than a certain number of requests for the given duration.
- - The program takes about #2 Seconds# to complete the process.
+ - The program takes about # 2 Seconds  to complete the process.
  
  ## Java program can be run from command line
 	
