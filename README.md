@@ -15,9 +15,9 @@
   src/com/ef/Backend.java
   
 ## MySQL schema 
-+---------------+
-|  blocked_ip_  |
-+---------------+
++---------------+\n
+|  blocked_ip_  |\n
++---------------+\n
 |   id (PK)     |
 |   ip          |
 |   comments    |
