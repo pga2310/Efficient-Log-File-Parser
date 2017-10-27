@@ -15,24 +15,18 @@
   src/com/ef/Backend.java
   
 ## MySQL schema 
-+---------------+\n
-|  blocked_ip_  |\n
-+---------------+\n
-|   id (PK)     |
-|   ip          |
-|   comments    |
-+---------------+
 
-+---------------+
-|   log_data_   |
-+---------------+
-|    date       |
-|     ip        |
-|    request    |
-|    status     |
-|   user_agent_ |	
-+---------------+
-                     
+### blocked_ip
+	ip
+	comments
+	id(PK)
+### log_data
+	date
+	ip
+	request
+	status
+	user_agent
+                    
                      
 ## SQL queries for SQL test
 
